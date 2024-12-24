@@ -31,7 +31,7 @@ export async function GET() {
 
   return NextResponse.redirect(
     process.env.NODE_ENV === "production"
-      ? "https://test-psi-taupe-62.vercel.app"
-      : "https://test-psi-taupe-62.vercel.app/about"
+      ? "https://test-eta-rust-73.vercel.app"
+      : "https://test-eta-rust-73.vercel.app/about"
   );
 }
