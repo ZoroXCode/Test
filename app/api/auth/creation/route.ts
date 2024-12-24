@@ -31,7 +31,7 @@ export async function GET() {
 
   return NextResponse.redirect(
     process.env.NODE_ENV === "production"
-      ? "https://blog-marshal.vercel.app/dasboard"
-      : "http://localhost:3000/about"
+      ? "https://test-psi-taupe-62.vercel.app"
+      : "https://test-psi-taupe-62.vercel.app/about"
   );
 }
